@@ -1,0 +1,24 @@
+call plug#begin('~/.vim/plugged')
+Plug 'arcticicestudio/nord-vim'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
+Plug 'thosakwe/vim-flutter'
+Plug 'tpope/vim-sensible'
+call plug#end()
+
+colorscheme nord
+set background=dark
+
+set completeopt+=preview
+let g:lsc_auto_map = {'defaults': v:true, 'Completion': 'omnifunc'}
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+set cursorline
+set colorcolumn=80
+
+let g:dart_format_on_save = 1
+let g:dart_style_guide = 2

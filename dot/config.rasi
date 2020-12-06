@@ -1,0 +1,10 @@
+configuration {
+  modi: "window,drun,run";
+  theme: "nord";
+  font: "Fira Code 14";
+  combi-modi: "window,drun,ssh";
+  icon-theme: "Adwaita";
+  width: 25;
+  lines: 5;
+  show-icons: true;
+}
