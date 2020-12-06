@@ -4,5 +4,5 @@ picom --experimental-backends &
 redshift &
 dunst &
 xmodmap ~/.Xmodmap
-~/flbar/build/linux/release/bundle/flbar &
+flbar &
 exec bspwm
