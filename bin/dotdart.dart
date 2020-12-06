@@ -7,6 +7,7 @@ const files = [
   DotFile.config(directory: 'kitty', name: 'kitty.conf'),
   DotFile.config(directory: 'sxhkd', name: 'sxhkdrc'),
   DotFile.config(directory: 'rofi', name: 'config.rasi'),
+  DotFile.config(directory: 'pacman', name: 'makepkg.conf'),
   DotFile.config(directory: 'picom', name: 'picom.conf'),
   DotFile.home(name: 'asoundrc'),
   DotFile.home(name: 'bash_profile'),
