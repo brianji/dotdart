@@ -1,8 +1,1 @@
-xsetroot -cursor_name left_ptr
-feh --bg-fill ~/wallpapers/redblue.png
-picom --experimental-backends &
-redshift &
-dunst &
-xmodmap ~/.Xmodmap
-flbar &
-exec bspwm
+exec dbus-launch --exit-with-session ~/.bspwm

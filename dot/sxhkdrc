@@ -18,13 +18,13 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 super + z
-	xsecurelock
+	lock.sh
 
 super + x
 	firefox
 
 super + c
-	google-chrome-stable
+	chromium
 
 super + q
 	~/bin/power-rofi.sh
